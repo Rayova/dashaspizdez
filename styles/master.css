@@ -1,0 +1,125 @@
+body {
+  background: #000;
+}
+
+.main__section__1 {
+  width: 20vw;
+  height: 15vw;
+
+  background: #000;
+
+  margin-top: 2vw;
+  margin-left: 2vw;
+
+  border-style: solid;
+  border-color: purple;
+  border-width: 0.4em;
+  border-radius: 10%;
+}
+
+
+.main__section__1 h1{
+  font-family: monospace;
+  font-size: 3em;
+  color: #fff;
+  margin-top: 0.1em;
+}
+
+.main__section__1 p{
+  font-family: monospace;
+  font-size: 1em;
+  color: #fff;
+
+  padding-bottom: 1em;
+}
+
+/* секция 2 */
+
+.main__section__2 div {
+  display: flex;
+  flex-direction: row;
+}
+
+.main__section__2__div__p {
+  color: #fff;
+  font-size: 3em;
+  font-family: monospace;
+
+  padding-left: 0.5em;
+}
+
+.main__section__2__div__img {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 1vw;
+}
+
+
+/* секция 3 */
+.main__section__3 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+  padding: 2vw;
+}
+
+.main__section__3 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 1vw;
+}
+
+.main__section__3__img {
+  transform: translateY(3vw);
+}
+
+.main__section__3 div img {
+  padding: 1vw;
+}
+
+
+/* 4 секция  */
+
+.main__section__4 {
+  position: absolute;
+  right: 0px;
+  bottom: 25vh;
+
+  padding: 2vw;
+}
+
+.main__section__4 img {
+  padding: 0.3vw;
+}
+
+.main__section__4 h1 {
+  position: absolute;
+  top: 10px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fdsd */
