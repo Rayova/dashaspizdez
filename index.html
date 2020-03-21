@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="styles/master.css">
 <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
 <script src="js/anime.min.js" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
   <main>
@@ -20,12 +21,12 @@
     <section id="block" class="main__section__2">
       <div>
         <img class="block" src="img/block.svg" alt="">
-         <p class="main__section__2__div__p">13 35 68<br> 0<br>43 78</p>
+         <p class="main__section__2__div__p">13.35.68<br>|<br>43.78</p>
       </div>
 
       <div>
         <img class="block" src="img/block.svg" alt="">
-         <p class="main__section__2__div__p">13 35 68<br> 0<br>43 78</p>
+         <p class="main__section__2__div__p">14.65.87<br>|<br>54.32</p>
       </div>
 
     </section>
@@ -33,17 +34,17 @@
 
     <section class="main__section__3">
       <img class="main__section__3__img" src="img/burger.svg" alt="">
-      <div>
-        <img src="img/button1.svg" alt="">
-        <img src="img/button2.svg" alt="">
-        <img src="img/button3.svg" alt="">
+      <div id="buts">
+        <img src="img/button1.svg" id="button1" class="button__1"alt="">
+        <img src="img/button2.svg" id="button2" class="button__2" alt="">
+        <img src="img/button3.svg" id="button3" class="button__3" alt="">
         <img src="img/button4.svg" alt="">
       </div>
 
     </section>
 
 
-    <section class="main__section__4">
+    <section id="objects" class="main__section__4">
 
       <div class="main__section__4__div">
         <img class="main__section__4__img1" src="img/obj3.svg" alt="">
@@ -79,7 +80,7 @@
     </section>
 
     <div class="wheel">
-      <img id="wheel" src="img/wheel.png" alt="">
+      <img id="wheel" class="wheel" src="img/wheel.png" alt="">
     </div>
 
     <section class="main__section__6">
@@ -95,6 +96,9 @@
       <img src="img/run.svg" alt="">
     </section>
 
+    <section>
+
+    </section>
   </main>
 <script src="js/alert.js" charset="utf-8"></script>
 <script src="js/wheel.js" charset="utf-8"></script>

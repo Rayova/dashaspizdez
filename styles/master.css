@@ -45,12 +45,12 @@ body {
 }
 
 .main__section__1 {
-  width: 20vw;
+  width: 27vw;
   height: 25vh;
 
   background: #000;
 
-  margin-top: 2vw;
+  margin-top: 0.2vw;
   margin-left: 2vw;
 
   border-style: solid;
@@ -71,7 +71,7 @@ body {
 
 .main__section__1 p{
   font-family: "PT Mono", monospace;
-  font-size: 0.8em;
+  font-size: 1em;
   text-transform: uppercase;
   color: #fff;
   margin-left: 1.5em;
@@ -94,7 +94,7 @@ body {
 
 .main__section__2__div__p {
   color: #fff;
-  font-size: 3em;
+  font-size: 2em;
   font-family: "PT Mono", monospace;
 
   padding-left: 0.5em;
@@ -252,5 +252,6 @@ body {
 
 .wheel img {
   position: absolute;
+  z-index: -1;
   bottom: -100%;
 }
