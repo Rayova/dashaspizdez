@@ -1,10 +1,11 @@
 body {
   background: #000;
+  overflow: hidden;
 }
 
 .main__section__1 {
   width: 20vw;
-  height: 15vw;
+  height: 28vh;
 
   background: #000;
 
@@ -95,17 +96,121 @@ body {
   bottom: 25vh;
 
   padding: 2vw;
+
+  display: flex;
+  align-items: flex-end;
 }
 
-.main__section__4 img {
+.main__section__4__img1 {
+  position: relative;
   padding: 0.3vw;
 }
 
-.main__section__4 h1 {
+.main__section__4__h1,
+.main__section__4__h3,
+.main__section__4__h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+  font-family: monospace;
+
+  margin-bottom: -0.1em;
+}
+
+.main__section__4__div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+/* alice */
+
+.main__alice {
   position: absolute;
-  top: 10px;
+  top: 0px;
+  right: 0px;
+
+  border-style: solid;
+  border-color: purple;
+  border-width: 0.4em;
+  border-radius: 0 0 2vw 2vw;
+}
+
+.main__alice p {
+  font-family: monospace;
+  font-size: 3em;
+
+  margin: 0.5em 0;
+  padding: 0 1em;
+
   color: #fff;
 }
+
+.main__section__5 {
+  position: absolute;
+  top: 0px;
+  right: 40vw;
+
+  display: flex;
+  justify-content: center;
+}
+
+.main__section__5__img__1,
+.main__section__5__img__2 {
+  position: absolute;
+  top: 0px;
+}
+
+.main__section__5__div__img {
+  border-style: solid;
+  border-color: cyan;
+  border-width: 0.2em;
+  border-radius: 1vw 1vw;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 3vh;
+  position: absolute;
+  top: 0px;
+  left: -12vw;
+}
+
+.main__section__5__div__img img{
+  padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+.main__section__5__div__img img:first-child{
+  padding-top: 3.3em;
+}
+
+.main__section__5__div__img img:last-child{
+  padding-bottom: 0.8em;
+}
+
+
+
+/* колесо */
+
+.wheel {
+  display: flex;
+  justify-content: center;
+}
+
+.wheel img {
+  position: absolute;
+  bottom: -100%;
+}
+
+.wheel p {
+  font-family: monospace;
+  font-size: 3em;
+  color: cyan;
+
+}
+
+
+
 
 
 
