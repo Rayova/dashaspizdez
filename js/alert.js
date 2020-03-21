@@ -17,13 +17,13 @@
 // let icon01 = document.getElementById('icon')
 // icon01.onclick = iconAnimation.play
 
-// alert
+/* alice */
 
-  let guest1 = prompt("Please enter your name", "Hot stuff");
-  if (guest1 != null) {
-    document.getElementById("guest").innerHTML = guest1
+  let alice1 = prompt("Please enter your name", "Hot stuff");
+  if (alice1 != null) {
+    document.getElementById("alice").innerHTML = alice1
   }
-  alert()
+
 
 // // кнопка блоки
 // let blocks = document.querySelector('.blocks');
