@@ -1,11 +1,52 @@
+* {
+  cursor: url("../img/cursor.svg"), auto;
+}
+
 body {
   background: #000;
   overflow: hidden;
 }
 
+
+@keyframes runner {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(150px);
+  }
+  0% {
+    opacity: 100%;
+  }
+  15% {
+    opacity: 10%;
+  }
+  30% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 .main__section__1 {
   width: 20vw;
-  height: 28vh;
+  height: 25vh;
 
   background: #000;
 
@@ -13,23 +54,27 @@ body {
   margin-left: 2vw;
 
   border-style: solid;
-  border-color: purple;
-  border-width: 0.4em;
+  border-color: #BE00FF;
+  border-width: 0.25em;
   border-radius: 10%;
 }
 
 
 .main__section__1 h1{
-  font-family: monospace;
-  font-size: 3em;
-  color: #fff;
-  margin-top: 0.1em;
+  font-family: "PT Mono", monospace;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #00E3FF;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
 }
 
 .main__section__1 p{
-  font-family: monospace;
-  font-size: 1em;
+  font-family: "PT Mono", monospace;
+  font-size: 0.8em;
+  text-transform: uppercase;
   color: #fff;
+  margin-left: 1.5em;
 
   padding-bottom: 1em;
 }
@@ -50,7 +95,7 @@ body {
 .main__section__2__div__p {
   color: #fff;
   font-size: 3em;
-  font-family: monospace;
+  font-family: "PT Mono", monospace;
 
   padding-left: 0.5em;
 }
@@ -111,8 +156,9 @@ body {
 .main__section__4__h2 {
   text-align: center;
   color: #fff;
-  font-size: 3em;
-  font-family: monospace;
+  font-size: 2em;
+  font-family: "PT Mono", monospace;
+  text-transform: uppercase;
 
   margin-bottom: -0.1em;
 }
@@ -131,19 +177,22 @@ body {
   right: 0px;
 
   border-style: solid;
-  border-color: purple;
-  border-width: 0.4em;
+  border-color: #7000FF;
+  border-width: 0.25em;
   border-radius: 0 0 2vw 2vw;
 }
 
 .main__alice p {
-  font-family: monospace;
-  font-size: 3em;
+  font-family: "PT Mono", monospace;
+  font-size: 2em;
+  text-transform: uppercase;
 
   margin: 0.5em 0;
   padding: 0 1em;
 
   color: #fff;
+;
+
 }
 
 .main__section__5 {
@@ -188,6 +237,10 @@ body {
   padding-bottom: 0.8em;
 }
 
+.blink {
+  animation: blink 1.5s infinite;
+}
+
 
 
 /* колесо */
@@ -201,36 +254,3 @@ body {
   position: absolute;
   bottom: -100%;
 }
-
-.wheel p {
-  font-family: monospace;
-  font-size: 3em;
-  color: cyan;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* fdsd */
