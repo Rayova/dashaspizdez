@@ -35,6 +35,12 @@ body {
 
 /* секция 2 */
 
+.main__section__2 {
+  position: absolute;
+  left: 0px;
+  top: 30vh;
+}
+
 .main__section__2 div {
   display: flex;
   flex-direction: row;
