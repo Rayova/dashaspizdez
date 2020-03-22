@@ -13,7 +13,7 @@ body {
     transform: translateX(0px);
   }
   to {
-    transform: translateX(150px);
+    transform: translateX(50px);
   }
   0% {
     opacity: 100%;
@@ -243,7 +243,7 @@ body {
 
 
 
-/* колесо */
+/* колеса */
 
 .wheel {
   display: flex;
@@ -254,4 +254,77 @@ body {
   position: absolute;
   z-index: -1;
   bottom: -100%;
+}
+
+.wheel__1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wheel__1 img {
+  position: absolute;
+  z-index: -1;
+  bottom: 50%;
+}
+
+/* бегунок */
+.run__1 {
+  position: absolute;
+  top: 10vh;
+  left: 30vw;
+  animation: runner 2s linear infinite
+}
+.run__2 {
+  position: absolute;
+  top: 50vh;
+  left: 45vw;
+  animation: runner 3s linear infinite
+}
+.run__3 {
+  position: absolute;
+  top: 70vh;
+  left: 78vw;
+  animation: runner 2s linear infinite
+}
+.run__4 {
+  position: absolute;
+  top: 70vh;
+  left: 37vw;
+  animation: runner 3s linear infinite
+}
+.run__5 {
+  position: absolute;
+  top: 34vh;
+  left: 50vw;
+  animation: runner 2s linear infinite
+}
+.run__6 {
+  position: absolute;
+  top: 78vh;
+  left: 9vw;
+  animation: runner 3s linear infinite
+}
+.run__7 {
+  position: absolute;
+  top: 47vh;
+  left: 97vw;
+  animation: runner 2s linear infinite
+}
+.run__8 {
+  position: absolute;
+  top: 47vh;
+  left: 19vw;
+  animation: runner 2s linear infinite
+}
+.run__9 {
+  position: absolute;
+  top: 24vh;
+  left: 10vw;
+  animation: runner 2s linear infinite
+}
+.run__0 {
+  position: absolute;
+  top: 15vh;
+  left: 90vw;
+  animation: runner 2s linear infinite
 }
