@@ -43,3 +43,16 @@ button3.addEventListener("click",      function() {
    else pull.style.display = 'none'
 
  });
+
+
+ let chatAnimation = anime({
+   targets: chat,
+   translateX: -250,
+   delay: function(el, i) { return i * 100; },
+   direction: 'alternate',
+   loop: true,
+   autoplay: false,
+   easing: 'easeInOutSine'
+ });
+
+ document.querySelector('.play-pause-demo .play').onclick = chat.play;
