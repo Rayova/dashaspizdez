@@ -256,18 +256,9 @@ body {
   bottom: -100%;
 }
 
-.wheel__1 {
-  display: flex;
-  justify-content: space-around;
-}
-
-.wheel__1 img {
-  position: absolute;
-  z-index: -1;
-  bottom: 50%;
-}
 
 /* бегунок */
+
 .run__1 {
   position: absolute;
   top: 10vh;
