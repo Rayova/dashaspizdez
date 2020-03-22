@@ -22,14 +22,24 @@ button2.addEventListener("click",      function() {
 
  });
 
+let wheel = document.querySelector('.wheel__1');
+let button1 = document.querySelector('.button__1');
+wheel.style.display = 'none'
 
-// let stuff = document.querySelector('.stuff');
-// let button1 = document.querySelector('.button__1');
-// stuff.style.display = 'none'
-//
-// button1.addEventListener("click",      function() {
-//
-//    if(stuff.style.display == 'none') stuff.style.display = 'flex';
-//    else stuff.style.display = 'none'
-//
-//  });
+button1.addEventListener("click",      function() {
+
+   if(wheel.style.display == 'none')  wheel.style.display = 'flex';
+   else wheel.style.display = 'none'
+
+ });
+
+let pull = document.querySelector('.main__section__5');
+let button3 = document.querySelector('.button__3');
+pull.style.display = 'none'
+
+button3.addEventListener("click",      function() {
+
+   if(pull.style.display == 'none')  pull.style.display = 'flex';
+   else pull.style.display = 'none'
+
+ });

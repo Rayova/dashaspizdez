@@ -51,12 +51,14 @@ body {
   background: #000;
 
   margin-top: 0.2vw;
-  margin-left: 2vw;
+  margin-left: 0vw;
 
   border-style: solid;
   border-color: #BE00FF;
   border-width: 0.25em;
   border-radius: 10%;
+
+
 }
 
 
@@ -67,24 +69,29 @@ body {
   color: #00E3FF;
   margin-top: 0.5em;
   margin-left: 0.5em;
+
 }
 
 .main__section__1 p{
   font-family: "PT Mono", monospace;
   font-size: 1em;
+  color: white;
   text-transform: uppercase;
-  color: #fff;
   margin-left: 1.5em;
 
-  padding-bottom: 1em;
 }
+
+.span {
+  animation: blink 1s step-end infinite;
+}
+
 
 /* секция 2 */
 
 .main__section__2 {
   position: absolute;
   left: 0px;
-  top: 30vh;
+  top: 40vh;
 }
 
 .main__section__2 div {
@@ -102,8 +109,8 @@ body {
 
 .main__section__2__div__img {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: -5px;
+  left: 21px;
   padding: 1vw;
 }
 
@@ -111,8 +118,8 @@ body {
 /* секция 3 */
 .main__section__3 {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: -37px;
+  right: -21px;
 
   padding: 2vw;
 }
@@ -125,7 +132,7 @@ body {
 }
 
 .main__section__3__img {
-  transform: translateY(3vw);
+  transform: translateY(2vw);
 }
 
 .main__section__3 div img {
@@ -261,61 +268,77 @@ body {
 
 .run__1 {
   position: absolute;
+  z-index: -1;
   top: 10vh;
   left: 30vw;
   animation: runner 2s linear infinite
 }
 .run__2 {
   position: absolute;
+  z-index: -1;
   top: 50vh;
   left: 45vw;
   animation: runner 3s linear infinite
 }
 .run__3 {
   position: absolute;
+  z-index: -1;
   top: 70vh;
   left: 78vw;
   animation: runner 2s linear infinite
 }
 .run__4 {
   position: absolute;
+  z-index: -1;
   top: 70vh;
   left: 37vw;
   animation: runner 3s linear infinite
 }
 .run__5 {
   position: absolute;
+  z-index: -1;
   top: 34vh;
   left: 50vw;
   animation: runner 2s linear infinite
 }
 .run__6 {
   position: absolute;
+  z-index: -1;
   top: 78vh;
   left: 9vw;
   animation: runner 3s linear infinite
 }
 .run__7 {
   position: absolute;
+  z-index: -1;
   top: 47vh;
   left: 97vw;
   animation: runner 2s linear infinite
 }
 .run__8 {
   position: absolute;
+  z-index: -1;
   top: 47vh;
   left: 19vw;
   animation: runner 2s linear infinite
 }
 .run__9 {
   position: absolute;
+  z-index: -1;
   top: 24vh;
   left: 10vw;
   animation: runner 2s linear infinite
 }
 .run__0 {
   position: absolute;
+  z-index: -1;
   top: 15vh;
   left: 90vw;
   animation: runner 2s linear infinite
+}
+
+.info {
+  position: absolute;
+  top: 27vh;
+  left: 3vw;
 }
