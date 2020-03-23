@@ -43,6 +43,8 @@ button1.addEventListener("click",      function() {
 
  });
 
+
+
 let pull = document.querySelector('.main__section__5');
 let button3 = document.querySelector('.button__3');
 pull.style.display = 'none'
