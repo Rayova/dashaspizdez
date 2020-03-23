@@ -44,15 +44,11 @@ button3.addEventListener("click",      function() {
 
  });
 
-
- let chatAnimation = anime({
-   targets: chat,
-   translateX: -250,
-   delay: function(el, i) { return i * 100; },
-   direction: 'alternate',
-   loop: true,
-   autoplay: false,
-   easing: 'easeInOutSine'
- });
-
- document.querySelector('.play-pause-demo .play').onclick = chat.play;
+let chatAnimation = anime ({
+  targets: '.main__section__1',
+  translateY: 500,
+  autoplay: false,
+  duration: 1000,
+})
+let chatBtn = document.getElementById('chat')
+chatBtn.onclick = chatAnimation.play

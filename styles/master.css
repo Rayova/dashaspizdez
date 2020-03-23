@@ -47,6 +47,7 @@ body {
 .main__section__1 {
   width: 27vw;
   height: 25vh;
+  position: absolute;
 
   background: #000;
 
@@ -56,11 +57,15 @@ body {
   border-style: solid;
   border-color: #BE00FF;
   border-width: 0.25em;
-  border-radius: 10%;
-
+  border-radius: 2vw;
+  top: -26%; 
 
 }
-
+.info {
+  position: absolute;
+  top: 25vh;
+  left: 3vw;
+}
 
 .main__section__1 h1{
   font-family: "PT Mono", monospace;
@@ -337,11 +342,7 @@ body {
   animation: runner 2s linear infinite
 }
 
-.info {
-  position: absolute;
-  top: 27vh;
-  left: 3vw;
-}
+
 
 .main__section__7 {
   position: absolute;
