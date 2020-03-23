@@ -22,9 +22,9 @@ button2.addEventListener("click",      function() {
 
  });
 
-let wheel = document.querySelector('.wheel__1');
+let wheel1 = document.querySelector('.main__div__1');
 let button1 = document.querySelector('.button__1');
-wheel.style.display = 'none'
+wheel1.style.display = 'none'
 
 button1.addEventListener("click",      function() {
 

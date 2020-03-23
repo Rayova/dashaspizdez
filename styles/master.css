@@ -58,7 +58,7 @@ body {
   border-color: #BE00FF;
   border-width: 0.25em;
   border-radius: 2vw;
-  top: -26%; 
+  top: -26%;
 
 }
 .info {
@@ -257,12 +257,11 @@ body {
 
 /* колеса */
 
-.wheel {
+.main__div__1 {
   display: flex;
   justify-content: center;
 }
-
-.wheel img {
+.wheel {
   position: absolute;
   z-index: -1;
   bottom: -100%;
