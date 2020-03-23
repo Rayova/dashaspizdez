@@ -56,10 +56,20 @@ button3.addEventListener("click",      function() {
 
 let chatAnimation = anime ({
   targets: '.main__section__1',
-  translateY: 245,
+  translateY: 225,
   autoplay: false,
   duration: 1000,
   // (можно оставить так а можно топорно)
 })
 let chatBtn = document.getElementById('chat')
 chatBtn.onclick = chatAnimation.play
+
+let burgerAnimation = anime ({
+  targets: '.main__section__3',
+  translateY: -140,
+  autoplay: false,
+  duration: 1000,
+  // (можно оставить так а можно топорно)
+})
+let burgerBtn = document.getElementById('burger')
+burgerBtn.onclick = burgerAnimation.play
