@@ -1,14 +1,24 @@
 /* кнопки */
-let block = document.querySelector('.main__section__2');
-let button = document.querySelector('.main__section__2__div__img');
-block.style.display = 'none'
+// let block = document.querySelector('.main__section__2');
+// let button = document.querySelector('.main__section__2__div__img');
+// block.style.display = 'none'
+//
+// button.addEventListener("click",      function() {
+//
+//     if(block.style.display == 'none')  block.style.display = 'block';
+//     else block.style.display = 'none'
+//
+//   });
 
-button.addEventListener("click",      function() {
-
-    if(block.style.display == 'none')  block.style.display = 'block';
-    else block.style.display = 'none'
-
-  });
+  let blockAnimation = anime ({
+    targets: '.main__section__2',
+    translateX: 210,
+    autoplay: false,
+    duration: 1000,
+    // (можно оставить так а можно топорно)
+  })
+  let iconBtn = document.getElementById('button')
+  iconBtn.onclick = blockAnimation.play
 
 
 let objects = document.querySelector('.main__section__4');
@@ -46,9 +56,10 @@ button3.addEventListener("click",      function() {
 
 let chatAnimation = anime ({
   targets: '.main__section__1',
-  translateY: 500,
+  translateY: 245,
   autoplay: false,
   duration: 1000,
+  // (можно оставить так а можно топорно)
 })
 let chatBtn = document.getElementById('chat')
 chatBtn.onclick = chatAnimation.play
