@@ -32,17 +32,26 @@ button2.addEventListener("click",      function() {
 
  });
 
-let wheel1 = document.querySelector('.main__div__1');
+// let wheel1 = document.querySelector('.main__div__1');
+// let button1 = document.querySelector('.button__1');
+// wheel1.style.display = 'none'
+//
+// button1.addEventListener("click",      function() {
+//
+//    if(wheel.style.display == 'none')  wheel.style.display = 'flex';
+//    else wheel.style.display = 'none'
+//
+//  });
+let oneAnimation = document.querySelector('.main__section__6');
 let button1 = document.querySelector('.button__1');
-wheel1.style.display = 'none'
+oneAnimation.style.display = 'none'
 
 button1.addEventListener("click",      function() {
 
-   if(wheel.style.display == 'none')  wheel.style.display = 'flex';
-   else wheel.style.display = 'none'
+   if(oneAn.style.display == 'none')  oneAn.style.display = 'flex';
+   else oneAn.style.display = 'none'
 
  });
-
 
 
 let pull = document.querySelector('.main__section__5');

@@ -254,18 +254,21 @@ body {
   animation: blink 1.5s infinite;
 }
 
-
+.blink__1 {
+  animation: blink 1.5s infinite;
+}
 
 /* колеса */
 
 .main__div__1 {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
 }
 .wheel {
   position: absolute;
   z-index: -1;
   bottom: -100%;
+  right: 5vw
 }
 
 
