@@ -417,8 +417,8 @@ body {
 .wheel__3 {
   position: absolute;
   z-index: -1;
-  bottom: -40%;
-  right: 70vw
+  bottom: -53%;
+  right: -34vw
 }
 
 #stars_1 {
