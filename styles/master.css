@@ -383,13 +383,44 @@ body {
     transform: translateX(-1000px);
   }
 }
+
+
+
+
+
+
+
 /* жесткий экран */
-.main__section__8 {
+.fast {
   position: absolute;
   width: 100%;
   background: black;
   display: flex;
 }
+
+.wheels {
+  /* display: flex; */
+  justify-content: center;
+}
+.wheel__1 {
+  position: absolute;
+  z-index: -1;
+  bottom: -25%;
+  right: 23vw
+}
+.wheel__2 {
+  position: absolute;
+  z-index: -1;
+  bottom: -100%;
+  right: 55vw
+}
+.wheel__3 {
+  position: absolute;
+  z-index: -1;
+  bottom: -40%;
+  right: 70vw
+}
+
 #stars_1 {
   width: 1px;
   height: 1px;

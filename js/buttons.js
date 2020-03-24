@@ -85,8 +85,14 @@ let burgerAnimation = anime ({
 let burgerBtn = document.getElementById('burger')
 burgerBtn.onclick = burgerAnimation.play
 
+
+
+
+
+
+
+
 /* жесткий экран */
-let fast = document.querySelector('.main__section__8');
 let button4 = document.querySelector('.button__4');
 fast.style.display = 'none'
 
