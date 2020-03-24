@@ -104,13 +104,13 @@ body {
   flex-direction: row;
 }
 
-.main__section__2__div__p {
+/* .main__section__2__div__p {
   color: #fff;
   font-size: 2em;
   font-family: "PT Mono", monospace;
 
   padding-left: 0.5em;
-}
+} */
 
 .main__section__2__div__img {
   position: absolute;
@@ -151,7 +151,7 @@ body {
 .main__section__4 {
   position: absolute;
   right: 0px;
-  bottom: 25vh;
+  bottom: 19vh;
 
   padding: 2vw;
 
@@ -405,4 +405,12 @@ body {
     width: 49vw;
     top: -22%;
   }
+}
+
+.id {
+  color: #fff;
+  font-size: 2em;
+  font-family: "PT Mono", monospace;
+
+  padding-left: 0.5em;
 }
