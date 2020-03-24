@@ -84,3 +84,26 @@ let burgerAnimation = anime ({
 })
 let burgerBtn = document.getElementById('burger')
 burgerBtn.onclick = burgerAnimation.play
+
+/* жесткий экран */
+let fast = document.querySelector('.main__section__8');
+let button4 = document.querySelector('.button__4');
+fast.style.display = 'none'
+
+button4.addEventListener("click",      function() {
+
+   if(fast.style.display == 'none')  fast.style.display = 'flex';
+   else fast.style.display = 'none'
+
+ });
+
+let slow = document.querySelector('.main__section__7');
+let button4_1 = document.querySelector('.button__4');
+slow.style.display = 'flex'
+
+button4_1.addEventListener("click",      function() {
+
+   if(slow.style.display == 'flex')  slow.style.display = 'none';
+   else slow.style.display = 'flex'
+
+ });
