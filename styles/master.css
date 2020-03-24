@@ -387,7 +387,22 @@ body {
 @media (min-width:768px) {
 
   .main__section__3__img {
-    transform: translateY(2vw);
     width: 70vw;
+  }
+  .main__section__4 {
+    bottom: 17vh;
+  }
+  .wheel {
+    bottom: 1%;
+    right: -13vw;
+    width: 125vw;
+  }
+  .main__section__5__div__img {
+    top: 70px;
+    left: 5vw;
+  }
+  .main__section__1 {
+    width: 49vw;
+    top: -22%;
   }
 }
