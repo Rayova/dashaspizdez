@@ -384,7 +384,7 @@ body {
   }
 }
 
-@media (min-width:768px) {
+@media (max-width:768px) {
 
   .main__section__3__img {
     width: 70vw;
