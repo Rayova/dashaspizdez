@@ -93,6 +93,7 @@ burgerBtn.onclick = burgerAnimation.play
 
 
 /* жесткий экран */
+let fast = document.querySelector('.fast');
 let button4 = document.querySelector('.button__4');
 fast.style.display = 'none'
 
