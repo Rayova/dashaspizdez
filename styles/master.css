@@ -383,3 +383,11 @@ body {
     transform: translateX(-1000px);
   }
 }
+
+@media (min-width:768px) {
+
+  .main__section__3__img {
+    transform: translateY(2vw);
+    width: 70vw;
+  }
+}
