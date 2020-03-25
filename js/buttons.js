@@ -73,14 +73,14 @@ burgerBtn.onclick = burgerAnimation.play
 
 
 /* жесткий экран */
-let haedcore = document.querySelector('.main__section__8');
+let fast = document.querySelector('.main__section__8');
 let button4 = document.querySelector('.button__4');
-haedcore.style.display = 'none'
+fast.style.display = 'none'
 
 button4.addEventListener("click",      function() {
 
-   if(haedcore.style.display == 'none')  haedcore.style.display = 'flex';
-   else haedcore.style.display = 'none'
+   if(fast.style.display == 'none')  fast.style.display = 'flex';
+   else fast.style.display = 'none'
 
  });
 
