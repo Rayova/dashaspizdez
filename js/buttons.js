@@ -70,6 +70,8 @@ burgerBtn.onclick = burgerAnimation.play
 
 
 
+
+
 /* жесткий экран */
 let haedcore = document.querySelector('.main__section__8');
 let button4 = document.querySelector('.button__4');

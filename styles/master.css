@@ -392,11 +392,10 @@ body {
   position: absolute;
   width: 100%;
   background: black;
-  display: flex;
+
 }
 
 .wheels {
-  /* display: flex; */
   justify-content: center;
 }
 .wheel__1 {
