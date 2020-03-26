@@ -54,7 +54,7 @@ let chatAnimation = anime ({
   autoplay: false,
   duration: 1000,
 
-})
+});
 let chatBtn = document.getElementById('chat')
 chatBtn.onclick = chatAnimation.play
 
