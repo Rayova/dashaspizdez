@@ -667,6 +667,12 @@ body {
     bottom: 8%;
     right: -55vw;
   }
+  .buts {
+    transform: translateY(-2px);
+  }
+  .main__section__3__img {
+    transform: translateY(2vw);
+  }
 }
 @media (max-width: 768px) {
   .main__section__3__img {
