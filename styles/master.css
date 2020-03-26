@@ -589,4 +589,52 @@ body {
     width: 49vw;
     top: -22%;
   }
+  .fast {
+    position: absolute;
+    z-index: -1;
+    width: 150%;
+    height: 100vh;
+    background: black;
+
+  }
+}
+@media (max-width:667px) {
+  body {
+    overflow: hidden;
+  }
+
+  .main__section__1 {
+     display: none;
+  }
+  .main__alice {
+    right: 17px;
+  }
+  .main__alice p {
+    font-size: 1.3em;
+  }
+  .main__section__2 {
+    top: -1px;
+    left: -208px;
+  }
+  .block {
+    width: 15px;
+  }
+  .main__section__2__div__p {
+    font-size: 1.2em;
+  }
+  .main__section__2__div__img {
+    bottom: 10px;
+    left: 7px;
+    width: 3em;
+  }
+  .main__section__3 {
+  bottom: -148px;
+  right: 13px;
+  }
+  .main__section__3__img {
+  width: 67vw;
+  }
+  .main__section__3__div__img {
+  padding: 1vw;
+  width: 11vw;
 }
