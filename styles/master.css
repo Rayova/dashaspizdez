@@ -671,3 +671,26 @@ body {
     left: 1vw;
   }
 }
+@media (max-width: 1024px) {
+  .wheel {
+    bottom: -49%;
+    right: -13vw;
+  }
+  .main__section__4 {
+    bottom: 13vh;
+  }
+  .main__section__5__div__img {
+    left: -17vw;
+  }
+  .main__section__1 {
+    top: -17vh;
+    height: 20vh;
+  }
+  .info {
+    top: 20vh;
+  }
+  .wheel__2 {
+    bottom: 8%;
+    right: -55vw;
+  }
+}
