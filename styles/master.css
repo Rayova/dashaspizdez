@@ -7,6 +7,9 @@ body {
   overflow: hidden;
 }
 
+.main__section__2__div__img:hover {
+    cursor: url("../img/cursor.svg"), auto;
+}
 
 @keyframes runner {
   from {
