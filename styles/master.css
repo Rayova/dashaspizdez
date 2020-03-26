@@ -482,6 +482,8 @@ body {
           animation: noise-2 .2s linear infinite;
 }
 .att__2:before {
+  position: absolute;
+  z-index: -1;
   content: 'ВНИМАНИЕ! ОПАСНОСТЬ!';
   font-family: "PT Mono", monospace;
   font-size: 100px;
@@ -500,6 +502,8 @@ body {
 }
 
 .att__2:after {
+  position: absolute;
+  z-index: -1;
   content: 'ВНИМАНИЕ! ОПАСНОСТЬ!';
   font-family: "PT Mono", monospace;
   font-size: 100px;
@@ -571,36 +575,6 @@ body {
   }
 }
 
-@media (max-width:768px) {
-
-  .main__section__3__img {
-    width: 70vw;
-  }
-  .main__section__4 {
-    bottom: 17vh;
-  }
-  .wheel {
-    bottom: 1%;
-    right: -13vw;
-    width: 125vw;
-  }
-  .main__section__5__div__img {
-    top: 70px;
-    left: 5vw;
-  }
-  .main__section__1 {
-    width: 49vw;
-    top: -22%;
-  }
-  .fast {
-    position: absolute;
-    z-index: -1;
-    width: 150%;
-    height: 100vh;
-    background: black;
-
-  }
-}
 @media (max-width:667px) {
   body {
     overflowY: hidden;
@@ -692,5 +666,34 @@ body {
   .wheel__2 {
     bottom: 8%;
     right: -55vw;
+  }
+}
+@media (max-width: 768px) {
+  .main__section__3__img {
+    width: 66vw;
+  }
+  .main__section__3__img {
+    transform: translateY(-2vw);
+  }
+  .buts {
+    transform: translateY(-23px);
+  }
+  .info {
+    top: 24vh;
+  }
+  .main__section__1 {
+    top: -24vh;
+    width: 45vw;
+    height: 24vh;
+  }
+  .wheel {
+    right: 11vw;
+  }
+  .main__section__4 {
+    bottom: 17vh;
+  }
+  .main__section__5__div__img {
+    left: 5vw;
+    top: 7vh;
   }
 }
