@@ -657,14 +657,17 @@ body {
     .button__3 {
       display: none;
     }
-  @media (max-width: 1057px) {
-    .main__section__1 {
-      width: 35vw;
-      height: 33vh;
-    }
-    .info {
-      position: absolute;
-      top: 33vh;
-      left: 1vw;
-    }
+}
+
+@media (max-width: 1057px) {
+  .main__section__1 {
+    width: 35vw;
+    height: 29vh;
+    top: -29vh;
   }
+  .info {
+    position: absolute;
+    top: 29vh;
+    left: 1vw;
+  }
+}
