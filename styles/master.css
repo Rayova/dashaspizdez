@@ -600,7 +600,7 @@ body {
 }
 @media (max-width:667px) {
   body {
-    overflow: hidden;
+    overflowY: hidden;
   }
 
   .main__section__1 {
@@ -627,14 +627,30 @@ body {
     left: 7px;
     width: 3em;
   }
-  .main__section__3 {
-  bottom: -148px;
-  right: 13px;
-  }
-  .main__section__3__img {
-  width: 67vw;
-  }
-  .main__section__3__div__img {
-  padding: 1vw;
-  width: 11vw;
-}
+
+  .wheel {
+    bottom: 1%;
+    right: 1.5vw;
+    width: 179vw;
+    }
+
+
+    .main__section__3__img {
+      width: 70vw;
+      transform: translateY(-31px);
+
+    }
+    .buts {
+      transform: scale(0.7);
+        right: 9vw;
+        width: 78vw;
+    }
+
+    .main__section__4 {
+      display: none;
+    }
+
+    .button__2,
+    .button__3 {
+      display: none;
+    }
