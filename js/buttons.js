@@ -3,7 +3,7 @@
 
   let blockAnimation = anime ({
     targets: '.main__section__2',
-    translateX: 210,
+    translateX: 300,
     autoplay: false,
     duration: 1000,
 
@@ -92,5 +92,16 @@ button4_1.addEventListener("click",      function() {
 
    if(slow.style.display == 'flex')  slow.style.display = 'none';
    else slow.style.display = 'flex'
+
+ });
+
+let show = document.querySelector('.button__4');
+let pullIt = document.querySelector('.main__section__5__img__2');
+show.style.display = 'none'
+
+pullIt.addEventListener("click",      function() {
+
+   if(show.style.display == 'none')  show.style.display = 'flex';
+   else show.style.display = 'none'
 
  });
